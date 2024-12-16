@@ -24,7 +24,7 @@ To use `uwifi`, simply copy the `uwifi.py` file to your MicroPython project. The
 
 ```python
 import time
-from uwifi import uwifi
+from uwifi.core import uwifi
 
 # Initialize the Wi-Fi Manager
 wifi = uwifi()
